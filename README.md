@@ -7,7 +7,7 @@ Clone of the [Kata-Machine](https://github.com/ThePrimeagen/kata-machine/tree/ma
 Make sure you have [Node.js](https://nodejs.org/en/) and yarn installed:
 
 ```bash
-`npm install --global yarn`
+npm install --global yarn
 ```
 
 Clone the repo and install the dependencies:
