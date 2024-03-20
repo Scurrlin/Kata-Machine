@@ -1,33 +1,18 @@
-## PrimeAlgos Dojo
+## Kata-Machine
 
-Clone of the [Kata-Machine](https://github.com/ThePrimeagen/kata-machine/tree/master) repo created by [ThePrimeagen](https://twitch.tv/ThePrimeagen)
-
-### Supported Algorithms
-* Insertion sort
-* Merge sort
-* QuickSort
-* Prim's MST (Adjacency List)
-* Dijkstra's Shortest Path (Adjacency List)
-
-### Supported Data Structures
-* Singly linked list
-* Doubly linked list
-* Queue
-* Stack
-* Graph with Adjacency List
-* Graph with Adjacency Matrix (untested)
+Clone of the [Kata-Machine](https://github.com/ThePrimeagen/kata-machine/tree/master) repo created by [ThePrimeagen](https://twitch.tv/ThePrimeagen). It is the companion piece to the [Last Algorithms Course You'll Need](https://frontendmasters.com/courses/algorithms/introduction/) on [Frontend Masters](https://frontendmasters.com/).
 
 ### How It Works
 
 Make sure you have [Node.js](https://nodejs.org/en/) and yarn installed: `npm install --global yarn`
 
-clone the repo and install the dependencies
+Clone the repo and install the dependencies
 
 ```bash
 yarn install
 ```
 
-your `ligma.config.js` file should look like this
+Your `ligma.config.js` file should look like this:
 ```javascript
 module.exports = {
     dsa: [
@@ -64,12 +49,12 @@ module.exports = {
 }
 ```
 
-create a day of katas, this will use the list in the `ligma.config.js`
+Create a day of katas, this will use the list in the `ligma.config.js`
 ```bash
 yarn generate
 ```
 
-this will progressively create folders named
+This will progressively create folders named
 
 ```
 src/day1
