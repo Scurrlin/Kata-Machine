@@ -1,3 +1,6 @@
+// Note: This solution uses the Queue module imported from Queue.ts. If you want
+// to implement this specific solution, you must solve Queue.ts first.
+
 import Queue from "./Queue";
 
 export default function bfs(graph: WeightedAdjacencyList, source: number, needle: number): number[] | null {
