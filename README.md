@@ -4,15 +4,20 @@ Clone of the [Kata-Machine](https://github.com/ThePrimeagen/kata-machine/tree/ma
 
 ### How It Works
 
-Make sure you have [Node.js](https://nodejs.org/en/) and yarn installed: `npm install --global yarn`
+Make sure you have [Node.js](https://nodejs.org/en/) and yarn installed:
 
-Clone the repo and install the dependencies
+```bash
+`npm install --global yarn`
+```
+
+Clone the repo and install the dependencies:
 
 ```bash
 yarn install
 ```
 
 Your `ligma.config.js` file should look like this:
+
 ```javascript
 module.exports = {
     dsa: [
@@ -49,12 +54,13 @@ module.exports = {
 }
 ```
 
-Create a day of katas, this will use the list in the `ligma.config.js`
+Create a day of katas; this will use the list in the `ligma.config.js`
+
 ```bash
 yarn generate
 ```
 
-This will progressively create folders named
+This will progressively create folders as shown below:
 
 ```
 src/day1
