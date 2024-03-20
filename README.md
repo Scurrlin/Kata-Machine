@@ -27,22 +27,44 @@ clone the repo and install the dependencies
 yarn install
 ```
 
-edit the `ligma.config.js` file
+your `ligma.config.js` file should look like this
 ```javascript
 module.exports = {
     dsa: [
+        "LinearSearchList",
+        "BinarySearchList",
+        "BubbleSort",
+        "QuickSort",
         "InsertionSort",
         "MergeSort",
+        "TwoCrystalBalls",
+        "SinglyLinkedList",
+        "DoublyLinkedList",
         "Queue",
         "Stack",
-        "QuickSort",
+        "ArrayList",
+        "Map",
+        "LRU",
+        "MinHeap",
+        "BTPreOrder",
+        "BTInOrder",
+        "BTPostOrder",
+        "BTBFS",
+        "CompareBinaryTrees",
+        "DFSOnBST",
+        "Trie",
+        "DFSGraphList",
+        "BFSGraphMatrix",
+        "BFSGraphList",
+        "MazeSolver",
         "DijkstraList",
         "PrimsList",
+        "RingBuffer",
     ],
 }
 ```
 
-create a day of katas, this will use the list in the `ligma.config.js`.
+create a day of katas, this will use the list in the `ligma.config.js`
 ```bash
 yarn generate
 ```
