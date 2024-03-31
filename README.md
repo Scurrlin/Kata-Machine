@@ -68,9 +68,7 @@ src/day2
 ...
 ```
 
-`yarn generate` will also update the `tsconfig.json` and `jest.config` to point
-the latest `day` folder via tspaths.  This allows us to avoid updating anything
-for testing each day.
+`yarn generate` will also update the `tsconfig.json` and `jest.config` so that they point to the latest `day` folder via tspaths.  This allows us to avoid unnecessary updates for testing each day.
 
 ### Testing
 
